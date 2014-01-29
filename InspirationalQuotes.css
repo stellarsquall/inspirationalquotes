@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+
+.topcontainer{
+	background: -webkit-linear-gradient(left , white , #4683C4);
+}
+
+.topcontainer h1{
+	padding-left: 25px;
+	margin: 0px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.insertquote{
+	margin-left: 79px;
+}
+
+.quotationarea{
+	margin-top: 25px;
+	width: 500px;
+	padding-bottom:50px;
+}
+
+.author{
+	width: 200px;
+	margin-top: 25px;
+}
+
+.authortag{
+	margin-left: 521px;
+}
+
+.submitbutton{
+	margin-left:690px;
+	margin-top: 20px;
+}
+
+.quotecontainer{
+	padding-left: 50px;
+}
+
+.authorcontainer{
+	padding-left: 200px;
+}
+
+.ratingsdiv{
+	width: 350px;
+	position: relative;
+	float: right;
+	padding-right: 250px;
+	list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.parentdiv{
+	display:none;
+}
+
+.clone {
+	overflow: hidden;
+	display: block;
+}
+
+.active-star {
+	color: red;
+	display:none;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang=en>
+<meta charset="utf8">
+<head>
+	<link rel="stylesheet" type="text/css" href="InspirationalQuotes.css">
+	<title>Inspirational Quotes</title>
+</head>
+
+<body>
+
+	<div class="topcontainer">
+		<h1>Find Inspiration</h1>
+	</div>
+
+	<div>
+		<form id = "quotationform">
+			<span class = "insertquote">Type your favorite quote here: </span><textarea  id="quotationarea" class="quotationarea" type="text"></textarea>
+		</form>
+	</div>
+
+<!-- //////////////////////////////////////// -->
+
+
+	<div>
+		<form id="authorform">
+			<span class = "authortag">Author: </span><input id="authorsubmit" class="author" type="text"></input>
+	</div>
+
+
+<!-- //////////////////////////////////////// -->
+
+
+	<div>
+		<button class="submitbutton" type="button" id="submission">Submit Quote</button>
+		<button id ="randombutton" class="submitbutton" type="button">Random Quote</button>
+	</div>
+
+
+<!-- ///////////////////////END OF QUOTE SUBMISSION AREA////////////////////////////////// -->
+
+	
+	<div id="parentdiv" class="parentdiv">
+	
+		<p class ="quotecontainer"></p>
+		<h3 class = "authorcontainer"></h3>
+
+			<div class ="ratingsdiv">
+
+				<li class="review-element">
+
+        			<div class="field-star-rating">
+            		<fieldset class="star-rating-widget">
+                	<legend class="offscreen">Rating</legend>
+		                <ul class="stars-div">
+		                        <li>
+		                            <input class="rating-1" type="radio" name="rating" value="1">
+		                            <label for="rating-1" class="offscreen">1 (Eek! Methinks not.)</label>
+		                        </li>
+		                        <li>
+		                            <input class="rating-2" type="radio" name="rating" value="2">
+		                            <label for="ratclassg-2" class="offscreen">2 (Meh. I've experienced better.)</label>
+		                        </li>
+		                        <li>
+		                            <input class="rating-3" type="radio" name="rating" value="3">
+		                            <label for="rating-3" class="offscreen">3 (A-OK.)</label>
+		                        </li>
+		                        <li>
+		                            <input class="rating-4" type="radio" name="rating" value="4">
+		                            <label for="rating-4" class="offscreen">4 (Yay! I'm a fan.)</label>
+		                        </li>
+		                        <li>
+		                            <input class="rating-5" type="radio" name="rating" value="5">
+		                            <label for="rating-5" class="offscreen">5 (Woohoo! As good as it gets!)</label>
+		                        </li>
+		                </ul>
+            		</fieldset>
+            		<p class="no-js-hidden" id="ratingDescription">Roll over stars, then click to rate.</p>
+        
+            		</div>
+
+				</li>	
+
+			</div>
+
+	</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="InspirationalQuotes.js"></script
+</body>
+</html>
